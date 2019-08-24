@@ -37,14 +37,15 @@ h2 {
 
 .navbar {
 	padding: 0px 20px 0px 20px;
-	border-bottom: 2px solid #bbbbbb;
+	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
-	
+	overflow: auto;
+	z-index: 99;
 }
 
-/* .navbar-nav { */
-	/* float: right; */
-/* } */
+.navbar-nav { 
+	float: right;
+}
 
 
 .header-name {
@@ -134,7 +135,7 @@ h2 {
 
 
 
-@media(max-width: 768px){
+@media (max-width: 768px){
 
 .navbar {
 	background-color: #4aaaa5;
